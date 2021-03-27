@@ -20,7 +20,7 @@ console.log(string);
 
 var ford = 'eXEMPLIFICATION';
 
-var mix = (ford.substr(0,1).toUpperCase() + ford.substr(1,15).toLowerCase());
+var mix = (ford.substring(0,1).toUpperCase() + ford.substring(1,15).toLowerCase());
 
 console.log(mix);
 
@@ -32,9 +32,14 @@ console.log(space.indexOf(' '));
 
 // f)
 
-/*var large = 'sUCCESSFULLY uNDERSTOOD';
+var large = 'sUCCESSFULLY understood';
 
-var mixtwo = (large.substr(0,1).toUpperCase() + large.substr(1,12).toLowerCase() + large.substr(12,13).toUpperCase() + large.substr(14,23).toLowerCase());
+console.log(large.indexOf(' '));
 
-console.log(mixtwo);*/
+var successfully = (large.substring(0,1).toUpperCase() + large.substring(1,12).toLowerCase());
 
+var understood = (large.substring(12,14).toUpperCase() + large.substring(14,23).toLowerCase());
+
+var union = successfully + understood;
+
+console.log(union);
