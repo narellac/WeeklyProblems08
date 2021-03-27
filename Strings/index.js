@@ -32,7 +32,7 @@ console.log(space.indexOf(' '));
 
 // f)
 
-var large = 'sUCCESSFULLY understood';
+var large = 'sUCCESSFULLY uNDERSTOOD';
 
 console.log(large.indexOf(' '));
 
